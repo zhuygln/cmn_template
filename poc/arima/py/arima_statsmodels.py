@@ -34,4 +34,8 @@ print('Test RMSE: %.3f' % rmse)
 # plot forecasts against actual outcomes
 pyplot.plot(test)
 pyplot.plot(predictions, color='red')
-pyplot.show()
+# Save the plot to a file instead of showing it
+pyplot.savefig('forecast_plot.png')  # You can specify the file name and format
+
+# Optionally, close the plot to free up resources
+pyplot.close()

@@ -22,7 +22,7 @@ __pycache__/
 *.lo
 *.o
 *.obj
-
+*.cmake
 # Precompiled Headers
 *.gch
 *.pch

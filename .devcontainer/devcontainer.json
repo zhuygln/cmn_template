@@ -23,8 +23,12 @@
 			"git.useEditorAsCommitInput": false
 		  },
 		  "extensions": [
-			"github.vscode-pull-request-github"
-		  ]
+			"github.vscode-pull-request-github",
+			"ms-python.python",
+			"dbaeumer.vscode-eslint",
+			"ms-vscode.vscode-typescript-tslint-plugin",
+			"esbenp.prettier-vscode"
+		]
 		}
 	  },
 	  "postCreateCommand": "git config --global user.name \"Yonglin\" && git config --global user.email \"zhuygln@gmail.com\"",
@@ -37,6 +41,12 @@
 
 	// Configure tool-specific properties.
 	// "customizations": {},
+	"remote.containers.defaultExtensions": [
+	"ms-python.python",
+	"dbaeumer.vscode-eslint",
+	"ms-vscode.vscode-typescript-tslint-plugin",
+	"esbenp.prettier-vscode"
+	]
 
 	// Uncomment to connect as an existing user other than the container default. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "devcontainer"

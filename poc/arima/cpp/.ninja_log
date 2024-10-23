@@ -1,0 +1,9 @@
+# ninja log v5
+1	4221	1729717444551251600	CMakeFiles/test_arima.dir/src/arima.cpp.o	caab8a1befa595f9
+4	4416	1729717799281251600	CMakeFiles/test_arima.dir/src/arima.cpp.o	caab8a1befa595f9
+3	4231	1729717934841251600	CMakeFiles/test_arima.dir/src/arima.cpp.o	caab8a1befa595f9
+2	4923	1729717935531251600	CMakeFiles/test_arima.dir/src/test_arima.cpp.o	9e74291bae1fb80f
+2	5259	1729718412181251600	CMakeFiles/test_arima.dir/src/test_arima.cpp.o	9e74291bae1fb80f
+3	2940	1729718571991251600	CMakeFiles/test_arima.dir/src/arima.cpp.o	caab8a1befa595f9
+2	3475	1729718572521251600	CMakeFiles/test_arima.dir/src/test_arima.cpp.o	9e74291bae1fb80f
+3475	3588	1729718572631251600	test_arima	275eca28d383cdf3

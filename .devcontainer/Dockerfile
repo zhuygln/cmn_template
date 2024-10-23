@@ -15,11 +15,25 @@ ARG USERNAME=user1
 ARG USER_UID=10000
 ARG USER_GID=$USER_UID
 
+# Define Conan and CMake versions
+ARG CONAN_VERSION=2.6.0
+ARG CMAKE_VERSION=3.30.1
+# Define Labels
+LABEL maintainer="Yonglin Zhu " \
+      description="Docker image for C++ development with Conan and CMake" \
+      cmake.version="${CMAKE_VERSION}" \
+      conan.version="${CONAN_VERSION}" 
+
 RUN apt-get update && \
     apt-get install -y software-properties-common && \
-    add-apt-repository -y ppa:deadsnakes/ppa && \
-    apt-get install -y python3.10 python3.10-distutils python3.10-venv python3.10-dev # add this to use python3.10 as default
+    add-apt-repository -y ppa:deadsnakes/ppa
 
+RUN apt-get update && \
+    apt-get install -y python3.10 python3.10-distutils python3.10-venv python3.10-dev
+RUN apt-get update && \
+    apt-get install -y build-essential cmake meson pkg-config libhdf5-dev
+RUN apt-get update && \
+    apt-get install -y libarmadillo-dev 
 RUN cd /root && \
     apt-get update && \
     chmod +x common-debian.sh && \
@@ -27,6 +41,7 @@ RUN cd /root && \
 RUN wget --output-document get-pip.py https://bootstrap.pypa.io/get-pip.py && \
     python3.10 get-pip.py
 RUN pip install -q pipx
+RUN pipx install conan
 RUN PIPX_HOME=/opt/pipx PIPX_BIN_DIR=/usr/local/bin PIPX_MAN_DIR=/usr/local/share/man pipx install poetry
 RUN rm -rf /var/lib/apt/lists/* /tmp/library-scripts get-pip.py && \
     apt-get clean -y
