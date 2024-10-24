@@ -1,19 +1,19 @@
 # Environments
 .env
 
-### Fort Python Development
+### Python Development
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
 # Jupyter Notebook
-
 .ipynb_checkpoints
+
 # C extensions
 *.so
 
-### For C++ Development
+### C++ Development
 # Prerequisites
 *.d
 
@@ -23,6 +23,7 @@ __pycache__/
 *.o
 *.obj
 *.cmake
+
 # Precompiled Headers
 *.gch
 *.pch
@@ -46,3 +47,66 @@ __pycache__/
 *.exe
 *.out
 *.app
+
+# General build directories
+/build/
+/_build/
+/out/
+/output/
+/bin/
+/lib/
+
+### Conan Specific
+conanbuildinfo.txt
+conaninfo.txt
+graph_info.json
+conan.lock
+conanbuildinfo.cmake
+conanbuildinfo.meson
+conan_package.tgz
+conan_sources.tgz
+conan_export.tgz
+conanfile.lock
+*.tgz
+*.log
+
+# Conan cache and local package storage
+.cmake
+.conan/
+
+### Meson Specific
+/meson-logs/
+/meson-info/
+/meson-private/
+/builddir/
+/dist/
+
+### Ninja Specific
+/build.ninja
+/.ninja_deps
+/.ninja_log
+
+# Compiled object files
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+*.a
+*.lib
+*.pdb
+
+# Backup files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+*.old
+
+# IDE specific (Optional, depending on what IDE you're using)
+/.idea/
+/.vscode/
+/*.code-workspace
+

@@ -1,0 +1,23 @@
+# Ignore build directories
+build/
+CMakeFiles/
+CMakeCache.txt
+
+# Ignore Ninja build files
+build.ninja
+rules.ninja
+.ninja_deps
+.ninja_log
+
+# Ignore generated files
+Makefile
+cmake_install.cmake
+
+# Ignore temporary files
+*.swp
+*.swo
+*.tmp
+
+# Ignore user-specific files
+*.user
+*.DS_Store

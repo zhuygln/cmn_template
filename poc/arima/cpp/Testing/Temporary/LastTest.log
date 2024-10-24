@@ -1,10 +1,10 @@
-Start testing: Oct 23 17:23 EDT
+Start testing: Oct 23 22:16 EDT
 ----------------------------------------------------------
 1/1 Testing: ARIMA_Test
 1/1 Test: ARIMA_Test
 Command: "/workspaces/cmn_template/poc/arima/cpp/test_arima"
 Directory: /workspaces/cmn_template/poc/arima/cpp
-"ARIMA_Test" start time: Oct 23 17:23 EDT
+"ARIMA_Test" start time: Oct 23 22:16 EDT
 Output:
 ----------------------------------------------------------
 [==========] Running 1 test from 1 test suite.
@@ -21,8 +21,8 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ARIMA_Test" end time: Oct 23 17:23 EDT
+"ARIMA_Test" end time: Oct 23 22:16 EDT
 "ARIMA_Test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Oct 23 17:23 EDT
+End testing: Oct 23 22:16 EDT
