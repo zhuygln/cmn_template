@@ -37,8 +37,17 @@ To build the project, you have two options:
 
 That's all you need for a basic package with a C extension!
 
-## More about scikit-build-core 
-https://scikit-build-core.readthedocs.io/en/latest/getting_started.html
+## More about scikit-build-core
+
+[scikit-build-core](https://scikit-build-core.readthedocs.io/en/latest/) is a build backend for Python packages with C extensions. It provides a seamless integration between Python's build system and CMake, making it easier to develop and distribute Python packages with compiled extensions.
+
+Key features of scikit-build-core include:
+- Automatic CMake configuration and build process
+- Support for various C/C++ compilers and build tools
+- Integration with Python's packaging ecosystem (pip, setuptools, etc.)
+- Cross-platform compatibility
+
+For more detailed information and usage guidelines, refer to the [official documentation](https://scikit-build-core.readthedocs.io/en/latest/getting_started.html).
 
 ### NOTE
-In this example, c extension need to implemented for the python packaging, not pure c with can that can run standalone.
+This example demonstrates a Python package with a C extension, not a standalone C program. The C code is compiled into a shared library that can be imported and used within Python. This approach allows you to leverage the power of C while maintaining the flexibility and ease of use of Python.
