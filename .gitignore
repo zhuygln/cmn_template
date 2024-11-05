@@ -110,3 +110,4 @@ conanfile.lock
 /.vscode/
 /*.code-workspace
 
+.devcontainer/devcontainer.json
