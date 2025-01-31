@@ -22,7 +22,7 @@ ARG CMAKE_VERSION=3.30.1
 LABEL maintainer="Yonglin Zhu " \
       description="Docker image for C++ development with Conan and CMake" \
       cmake.version="${CMAKE_VERSION}" \
-      conan.version="${CONAN_VERSION}" 
+      conan.version="${CONAN_VERSION}"
 
 RUN apt-get update && \
     apt-get install -y software-properties-common && \
@@ -33,7 +33,7 @@ RUN apt-get update && \
 RUN apt-get update && \
     apt-get install -y build-essential cmake meson pkg-config libhdf5-dev
 RUN apt-get update && \
-    apt-get install -y libarmadillo-dev 
+    apt-get install -y libarmadillo-dev
 RUN cd /root && \
     apt-get update && \
     chmod +x common-debian.sh && \
@@ -47,11 +47,10 @@ RUN rm -rf /var/lib/apt/lists/* /tmp/library-scripts get-pip.py && \
     apt-get clean -y
 
 
-# ENVIRONMENT. 
+# ENVIRONMENT.
 # ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$ODBCHOME/lib
 
 # Setting needed locale environment for the proc SQL calls
 ENV LC_ALL en_US.UTF-8
 ENV TZ="America/New_York"
 CMD ["tail", "-f", "/dev/null"]
-

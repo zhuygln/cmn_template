@@ -111,3 +111,7 @@ conanfile.lock
 /*.code-workspace
 
 .devcontainer/devcontainer.json
+
+# dev environment
+.cursorignore
+.cursorrules

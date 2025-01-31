@@ -1,1 +1,0 @@
-/workspaces/cmn_template/poc/scikit_build_core/hello-pybind11/_skbuild/linux-x86_64-3.10/cmake-install/src/hello/./_hello.cpython-310-x86_64-linux-gnu.so

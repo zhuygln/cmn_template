@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.15)
-project(arima_test_project VERSION 0.1.0 LANGUAGES CXX)
+project(
+  arima_test_project
+  VERSION 0.1.0
+  LANGUAGES CXX)
 
 # Specify C++ standard
 set(CMAKE_CXX_STANDARD 11)

@@ -1,7 +1,0 @@
-# ninja log v5
-40587	42965	1730751579361251600	_hello.cpython-310-x86_64-linux-gnu.so	68ad082546f06fcc
-1	40586	1730751576981251600	CMakeFiles/_hello.dir/src/hello/hello_py.cpp.o	10839d97359bf662
-42965	42975	0	CMakeFiles/install.util	7de44afc2ce15721
-3	3369	1730751793691251600	CMakeFiles/_hello.dir/src/hello/hello_py.cpp.o	10839d97359bf662
-3369	5765	1730751796091251600	_hello.cpython-310-x86_64-linux-gnu.so	68ad082546f06fcc
-5765	5773	0	CMakeFiles/install.util	d8eed2eaa4b05a3c
