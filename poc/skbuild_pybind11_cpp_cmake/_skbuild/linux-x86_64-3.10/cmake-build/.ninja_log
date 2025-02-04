@@ -1,0 +1,4 @@
+# ninja log v5
+1	6257	1738694189959890300	CMakeFiles/_hello.dir/src/hello/hello_py.cpp.o	8fd58bdfda6a82f0
+6257	8449	1738694192159890300	_hello.cpython-310-x86_64-linux-gnu.so	f1e618195a01b839
+8449	8454	0	CMakeFiles/install.util	f29f0bbea6143f97

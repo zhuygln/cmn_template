@@ -1,0 +1,11 @@
+Metadata-Version: 2.2
+Name: skbuild_pybind11_cpp_cmake
+Version: 0.1.0
+Summary: a minimal example package (with pybind11)
+Author: Yonglin Zhu
+License: MIT
+Requires-Python: >=3.9
+Dynamic: author
+Dynamic: license
+Dynamic: requires-python
+Dynamic: summary

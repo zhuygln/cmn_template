@@ -1,0 +1,11 @@
+pyproject.toml
+setup.py
+_skbuild/linux-x86_64-3.10/cmake-install/src/hello/__init__.py
+_skbuild/linux-x86_64-3.10/cmake-install/src/hello/_hello.cpython-310-x86_64-linux-gnu.so
+src/hello/__init__.py
+src/skbuild_pybind11_cpp_cmake.egg-info/PKG-INFO
+src/skbuild_pybind11_cpp_cmake.egg-info/SOURCES.txt
+src/skbuild_pybind11_cpp_cmake.egg-info/dependency_links.txt
+src/skbuild_pybind11_cpp_cmake.egg-info/not-zip-safe
+src/skbuild_pybind11_cpp_cmake.egg-info/top_level.txt
+tests/test_hello_pybind11.py
